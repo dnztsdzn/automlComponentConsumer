@@ -1,0 +1,50 @@
+channels:
+- anaconda
+- conda-forge
+- pytorch
+dependencies:
+- python=3.7.9
+- pip=20.2.4
+- pip:
+  - azureml-core==1.38.0.post2
+  - azureml-mlflow==1.38.0
+  - azureml-pipeline-core==1.38.0
+  - azureml-telemetry==1.38.0.post1
+  - azureml-interpret==1.38.0
+  - azureml-responsibleai==1.38.0
+  - azureml-automl-core==1.38.1
+  - azureml-automl-runtime==1.38.1
+  - azureml-train-automl-client==1.38.0.post2
+  - azureml-train-automl-runtime==1.38.1
+  - azureml-dataset-runtime==1.38.0
+  - azureml-defaults==1.38.0
+  - azureml-contrib-dataset==1.25.0
+  - azureml-contrib-automl-dnn-vision==1.25.0
+  - azureml-designer-core==0.0.59
+  - azureml-train-automl==1.25.0
+  - xgboost==1.1.1
+  - inference-schema
+  - click<8.0.0
+  - pystan==2.19.1.1
+  - pytorch-transformers==1.0.0
+  - spacy==2.1.8
+  - https://aka.ms/automl-resources/packages/en_core_web_sm-2.1.0.tar.gz
+  - py-cpuinfo==5.0.0
+  - boto3==1.15.18
+  - botocore==1.18.18
+  - joblib==0.14.1
+  - cloudpickle==1.6.0
+  - azureml-training-tabular==1.38.1.*
+- numpy~=1.18.0
+- scikit-learn==0.22.1
+- pandas~=1.1.5
+- py-xgboost==1.3.3
+- fbprophet==0.7.1
+- holidays==0.10.3
+- setuptools-git
+- pytorch=1.4.0
+- cudatoolkit=10.0.130
+- psutil>5.0.0,<6.0.0
+- torchvision==0.8.2
+- pytest
+name: azureml_ed46a1adca7ea45c278b97e22ca2f75b
